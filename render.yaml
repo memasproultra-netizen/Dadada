@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ascension
+    runtime: node
+    plan: free
+    region: frankfurt   # ближайший к Казахстану регион Render (Европа)
+    buildCommand: echo skip
+    startCommand: node server/server.js
+    healthCheckPath: /healthz

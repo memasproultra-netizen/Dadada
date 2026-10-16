@@ -1,0 +1,7 @@
+{
+  "name": "ascension-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "node server/server.js" },
+  "engines": { "node": ">=18" }
+}
